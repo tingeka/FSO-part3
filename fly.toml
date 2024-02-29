@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for mg-fso-part3 on 2024-02-29T10:59:53-03:00
+# fly.toml app configuration file generated for mg-fso-part3 on 2024-02-29T11:29:39-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -6,9 +6,10 @@
 app = 'mg-fso-part3'
 primary_region = 'scl'
 
-[env]
-  PORT = "3000"
 [build]
+
+[env]
+  PORT = '3000'
 
 [http_service]
   internal_port = 3000
